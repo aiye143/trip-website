@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Trips</title>
+    <style>
+      /*I have chosen a background color for my website background*/
+      body {
+        background: #f6f2fe;
+      }
+      /*I have underlined, chose a color, and fixed position of my heading*/
+      h1 {
+        text-decoration: underline;
+        color: #885df1;
+        text-align: center;
+      }
+      /*Chose a color, chose a font, and fixed a position for my h2*/
+      h2 {
+        color: #272044;
+        font-weight: normal;
+        text-align: center;
+      }
+      /*fixed margin, padding, and chose a box-shadow, a border, font size for my button*/
+      button {
+        border: 1px solid #885df1;
+        border-radius: 30px;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+        margin: 20px auto;
+        display: block;
+        color: #885df1;
+        font-size: 16px;
+        background: transparent;
+        padding: 15px 20px;
+        transition: all 200ms ease;
+      }
+      /*button hover is used for changing the style of our button*/
+      button:hover {
+        color: #fff;
+        background: #885df1;
+      }
+      /*ul is used for styling our list*/
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+
+      li {
+        display: inline;
+        margin: 0 15px;
+      }
+      /*a is used for styling our hyperlink*/
+      a {
+        text-decoration: none;
+      }
+      /*a hover is used when our mouse goes over the hyperlink then an underline appears under our link*/
+      a:hover {
+        text-decoration: underline;
+      }
+      /*chose a color for my list of hyperlinks*/
+      .courses {
+        color: red;
+      }
+
+      .coders {
+        color: blue;
+      }
+
+      .stories {
+        color: green;
+      }
+      /*chose a font style and fixed the position of my info-heading*/
+      .info-heading {
+        font-weight: bold;
+        text-align: center;
+      }
+      /*display block element start on a new line and pushes back down the content that follows it.*/
+      img {
+        display: block;
+        margin: 30px auto;
+        /*set the display to block then set a margin to control the spacing around it.*/
+      }
+      video {
+        display: block;
+        margin: 30px auto;
+      }
+      /*set a block display and margin around it*/
+      audio {
+        display: block;
+        margin: 30px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <hr />
+        My hobbies
+        <hr />
+      </h1>
+      <h2>Traveling</h2>
+
+      <ul>
+        <li>
+          <a href="https://www.skyscanner.de/" target="_blank" class="Flights">
+            Flights
+          </a>
+        </li>
+        <li>
+          <a href="https://www.booking.com/" target="_blank" class="Hotels">
+            Hotels
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://intellifluence.com/top-influencers/switzerland"
+            target="_blank"
+            class="stories"
+          >
+            Stories
+          </a>
+        </li>
+      </ul>
+      <hr />
+      <div class="info-heading">More info</div>
+
+      <img
+        src="https://images.wallpapersden.com/image/download/walensee-lake-alps-switzerland_ZmpraG6UmZqaraWkpJRpZWVlrWdrbGY.jpg"
+        width="600"
+        height="400"
+        alt="Swizerland Nature"
+      />
+
+      <video
+        src="https://www.youtube.com/watch?v=linlz7-Pnvw.mp4"
+        controls
+        width="640"
+        height="360"
+      ></video>
+      <br />
+      <audio
+        src="Music: https://www.chosic.com/free-music/all/.mp3"
+        controls
+      ></audio>
+      <p>
+        The natural beauty of Switzerland will take your breath away! The snow
+        capped Swiss Alps seen by train travel, the peaceful scenery and the
+        beautiful cities to see along the way.
+      </p>
+      <a
+        href="https://en.wikipedia.org/wiki/Switzerland"
+        target="_blank"
+        class="learn-more"
+      >
+        <br />
+        Learn more on Wikipedia
+        <br />
+      </a>
+      <br />
+      <button class="know-more">
+        <strong> 👉 Travel to Switzerland </strong>
+      </button>
+      <br />
+    </div>
+  </body>
+</html>
